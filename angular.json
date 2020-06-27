@@ -117,8 +117,16 @@
               "devServerTarget": "travelgram:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "travelgram"
+    }
+  },
+  "defaultProject": "travelgram",
+  "cli": {
+    "analytics": false
+  }
 }
