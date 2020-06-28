@@ -20,7 +20,7 @@ import { imageConfig } from 'src/utils/config';
 })
 export class SignupComponent implements OnInit {
   picture: string =
-    'https://learnyst.s3.amazonaws.com/assets/schools/2410/resources/image/logo_lco_i3oab.png';
+    'https://learnyst.s3.amazonaws.com/assets/schools/2410/resources/images/logo_lco_i3oab.png';
 
   uploadPercent = null;
   constructor(

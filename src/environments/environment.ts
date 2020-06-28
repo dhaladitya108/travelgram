@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: true,
+  firebase: {
+    apiKey: 'AIzaSyCYyTqhdRsGb_JKdlPAIUy-4a-2bfI_CGk',
+    authDomain: 'travelgram-92ce1.firebaseapp.com',
+    databaseURL: 'https://travelgram-92ce1.firebaseio.com',
+    projectId: 'travelgram-92ce1',
+    storageBucket: 'travelgram-92ce1.appspot.com',
+    messagingSenderId: '9289647536',
+    appId: '1:9289647536:web:739da47245446f906a0275',
+  },
 };
 
 /*
